@@ -1,53 +1,74 @@
-# Drawing Shapes
+# The DRY (Don't Repeat Yourself) Principal
 
-These are works by artists Josef Albers, Atta Kwami, Theo van Doesburg, and Vassily Kandinsky. The styles are different, but all of them are based on polygons or circles.  
-<br/>
-
-<img src="https://github.com/hoc-labs/images/blob/main/Josef_Albers's_painting_'Homage_to_the_Square',_1965.jpg?raw=true" width="200" />
-<img src="https://github.com/hoc-labs/images/blob/main/AttaKwami_bobbo.jpg?raw=true" width="200" />
-
-<img src="https://github.com/hoc-labs/images/blob/main/Theo_van_Doesburg_Composition_VII_(the_three_graces).jpg?raw=true" width="200" />
-
-<img src="https://github.com/hoc-labs/images/blob/main/kandinsky-several-circles.jpg?raw=true" width="200" />
-
-<br/><br/>
-
-In this lab, you'll explore the basics of drawing a shape in Snap! by using the repeat block to loop through the same code multiple times. Once you can draw polygons, you can create your own art.
-
-
-
-
-<img src="https://github.com/hoc-labs/images/blob/main/ColoredSquareMesh.png?raw=true" width="600" />
-
-
+## Drawing Polygons
 ![regular polygons](https://github.com/hoc-labs/images/blob/main/polygon-row.png?raw=true)
 
 
+Before beginning this exercise, read through the following topics:
+* [Algorithms](https://chnn-anne.gitbook.io/javascript-1/algorithms)
+* [The DRY Principle](https://chnn-anne.gitbook.io/javascript-1/dry-principle)
+* [Drawing a Square](https://www.youtube.com/watch?v=AighCB14bNw)
+* [Exterior Angles](https://www.youtube.com/watch?v=qLU3PtaG3ww)
+#### Drawing a Square
 
-### Algorithm
+Draw a square in the center of the stage with sides of length 100. Remember to add a **pen down** command at the beginning and a **pen up** command at the end.
 
-An algorithm is a sequence of steps that are usually performed by a computer. In some programming languages, like Snap!, you program algorithms by dragging blocks (individual instructions) and snapping them together. In other languages, you type the instructions. The idea is the same.
+#### Draw a Triangle
+Based on your knowledge from drawing a square, create a series of commands to draw a triangle. 
 
-An algorithm isn't a computer program (it isn't the code) but rather a general description of the steps the computer should follow. The algorithm isn't specific to a particular programming language; once you know the steps that the computer will take (that is, once you have your algorithm), you can write the code in the language of your choice.
+If you are having trouble with the angle to turn, think about the direction the sprite it pointing and how far it needs to rotate when it turns.
 
-<br/>
+![regular polygons](https://github.com/hoc-labs/images/blob/main/racecar.gif?raw=true)
 
-#### 1. Before you start coding, imagine what this algorithm will make the sprite do:
-![](https://github.com/hoc-labs/images/blob/main/repeat-4(move-50-wait-turn-right-90-wait).png?raw=true)
+#### Draw a Pentagon and an Octagon
+Based on your knowledge from drawing a square and a triangle, create a series of commands to draw a pentagon (five sides) and an octagon (eight sides).
 
-#### 2. Build the script to test your hypothesis.
-* Clicking on the script runs it.
-* Click it, and watch what the script does.
-* Click the **pen down** block in the **Pen** palette and then click you script to run again.
+#### Create a Draw Polygon Command Block
+Create a command block in the **motion** palette, named **draw polygon**, that will draw all of the shapes above. It should accept to inputs:
+* the number of sides
+* the length of each side
 
-#### 3. Experiment
-* Change 100 to 50 in the **move** block in the **Motion** palette and click the script again to run it with the new input value.
-* Click the **clear** block in the **Pen** palette. (you can click the **clear** or any block in the palette or in the scripting area to run it)
-* Change the number of degrees in the **turn** blck and run the script again... and again... and again.
-* Change the number in the **repeat** block.
-* Try to draw a triangle.
-* Use the **set pen size to** block in the **Pen** palette to set the pen size to something like 4 or 10 or 50. 
-* Draw something. 
+Create titles for the input parameters so that it is easier to use them.
+
+![regular polygons](https://github.com/hoc-labs/images/blob/main/draw-polygon.png?raw=true)
+
+
+
+**hint:** all of the exterior angles need to add up to 360 degrees, so the amount of rotation between each side is 360 divided by the number of sides.
+
+#### Create a Draw Rectangle Command Block
+Create a command block in the **motion** palette, named **draw rectangle**, that will draw a rectangle with the specified width and length.
+
+![regular polygons](https://github.com/hoc-labs/images/blob/main/draw-rect.png?raw=true)
+
+#### Create Art
+
+In the scripting area, set out a collection of the tools and blocks that may be handy in creating your art work. You can adjust the input values for these blocks as needed as you create your art. This [video](https://www.youtube.com/embed/pthWazhu474?rel=0) shows how to create some overlapping regions and then fill some of them with color.
+
+Make your own art. Explore a few different combinations of shape and color. Take screen shots of your art work and save them to your repository and then create a web page that displays your work so you can share them with the class.
+
+To add some randomness to your drawings try using the random reporter in your calls to your shape commands:
+![random polygons](https://github.com/hoc-labs/images/blob/main/random-polys.png?raw=true)
+
+Here are some ideas:
+
+<img src="https://github.com/hoc-labs/images/blob/main/random-polys-2.png?raw=true" width="400" />
+<img src="https://github.com/hoc-labs/images/blob/main/random-polys-3.png?raw=true" width="400" />
+<img src="https://github.com/hoc-labs/images/blob/main/random-polys-4.png?raw=true" width="400" />
+
+<img src="https://github.com/hoc-labs/images/blob/main/polys-5.png?raw=true" width="600" />
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
