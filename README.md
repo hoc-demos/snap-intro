@@ -3,8 +3,7 @@
 These are works by artists Josef Albers, Atta Kwami, Theo van Doesburg, and Vassily Kandinsky. The styles are different, but all of them are based on polygons or circles.  
 <br/>
 
-<img src="https://github.com/hoc-labs/images/blob/main/Josef_Albers's_painting_'Homage_to_the_Square',_1965.jpg?raw=true" width="200" />
-<img src="https://github.com/hoc-labs/images/blob/main/AttaKwami_bobbo.jpg?raw=true" width="200" />
+<img src="https://github.com/hoc-labs/images/blob/main/Josef_Albers's_painting_'Homage_to_the_Square',_1965.jpg?raw=true" width="200" /><img src="https://github.com/hoc-labs/images/blob/main/AttaKwami_bobbo.jpg?raw=true" width="200" />
 
 <img src="https://github.com/hoc-labs/images/blob/main/Theo_van_Doesburg_Composition_VII_(the_three_graces).jpg?raw=true" width="200" />
 
