@@ -48,6 +48,7 @@ In the scripting area, set out a collection of the tools and blocks that may be 
 Make your own art. Explore a few different combinations of shape and color. Take screen shots of your art work and save them to your repository and then create a web page that displays your work so you can share them with the class.
 
 To add some randomness to your drawings try using the random reporter in your calls to your shape commands:
+
 ![random polygons](https://github.com/hoc-labs/images/blob/main/random-polys.png?raw=true)
 
 Here are some ideas:
